@@ -15,8 +15,12 @@ img{
   float: left;
   background-color: blanchedalmond;
   padding: 10px;
-
 }
 #profile_brief{
   font-size: small;
+}
+.column_one{
+  border-width:10;
+  float:  left;
+   
 }
