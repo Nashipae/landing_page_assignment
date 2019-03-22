@@ -21,6 +21,11 @@ img{
 }
 .column_one{
   border-width:10;
-  float:  left;
-   
+  float:  left; 
+}
+.right_column{
+  background-image: url("../images/Bulbs.JPG");
+  background-repeat: no-repeat;
+  float: right;
+  width: 350px;
 }

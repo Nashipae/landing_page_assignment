@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.footer, .top{grid-column: span 4 / auto;}
+
+.middle{grid-column: span 2 / auto;}
