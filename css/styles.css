@@ -29,3 +29,6 @@ img{
   float: right;
   width: 350px;
 }
+li{
+  line-height: 2;
+}
