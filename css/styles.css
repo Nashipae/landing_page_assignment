@@ -15,6 +15,7 @@ img{
   float: left;
   background-color: blanchedalmond;
   padding: 10px;
+  border: 2px solid skyblue;
 }
 #profile_brief{
   font-size: small;
@@ -23,12 +24,46 @@ img{
   border-width:10;
   float:  left; 
 }
-.right_column{
+.right{
   background-image: url("../images/Bulbs.JPG");
   background-repeat: no-repeat;
-  float: right;
+  float: left;
   width: 350px;
 }
 li{
   line-height: 2;
+}
+.footer li{
+  line-height: 2;
+  background-color: maroon
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.top{
+  background-image: url("../images/background_image5.jpg");
+  background-size: cover;
+}
+.right ul{
+  list-style: none;
+ align: left;
+}
+.contact{
+  width: 40;
+  height: 30px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
 }
