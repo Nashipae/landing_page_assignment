@@ -8,5 +8,15 @@ h1{
 }
 img{
   float: left;
-  padding-right: 20px;
+  padding: 20px;
+}
+.sidebar {
+  width: 240px;
+  float: left;
+  background-color: blanchedalmond;
+  padding: 10px;
+
+}
+#profile_brief{
+  font-size: small;
 }
