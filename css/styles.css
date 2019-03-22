@@ -5,6 +5,8 @@ body{
 h1{
   color: mediumvioletred;
   text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
 }
 img{
   float: left;
@@ -28,8 +30,16 @@ img{
   background-image: url("../images/Bulbs.JPG");
   background-repeat: no-repeat;
   float: left;
-  width: 350px;
+  padding: 10px;
+  margin-left: 10px;
+  font-family: 'Margarine', cursive; 
 }
+
+.right ul{
+  list-style: none;
+  align: left;
+  font-family: 'Charm', cursive;
+ }
 li{
   line-height: 2;
 }
@@ -40,8 +50,8 @@ li{
 
 li a {
   display: block;
-  color: white;
-  text-align: center;
+  color:blue;
+  text-align: left;
   padding: 16px;
   text-decoration: none;
 }
@@ -54,16 +64,28 @@ li a:hover {
   background-image: url("../images/background_image5.jpg");
   background-size: cover;
 }
-.right ul{
-  list-style: none;
- align: left;
-}
-.contact{
-  width: 40;
+
+.icon{
+  width: 40px;
   height: 30px;
 }
 .footer{
   background-color: black;
   color: white;
   text-align: center;
+}
+.contact{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  margin-left: 0px;
+}
+.right li{
+  margin-left: 0px;
+  background-color: aquamarine;
+}
+.p li{
+  color:lightgreen;
+  text-align: left;
+  text-decoration: none;
 }
